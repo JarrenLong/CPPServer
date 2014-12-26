@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="http" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="..\..\..\Plugins\http" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\..\bin\Plugins\http" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="CRequest.cpp" />
+		<Unit filename="CRequest.h" />
+		<Unit filename="CResponse.cpp" />
+		<Unit filename="CResponse.h" />
+		<Unit filename="http.cpp" />
+		<Unit filename="http.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
